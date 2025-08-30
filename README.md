@@ -1,37 +1,62 @@
-# 📚 Document Summarizer ✨
+# 📄✨ Document Summary Assistant  
 
-Welcome to **Document Summarizer** 🎉  
-This is a cool little web app 🌐 that lets you upload your documents 📄 (PDFs & Images 🖼️) and get quick summaries 📝 in seconds ⚡.  
+**🚀 Live App:** [https://document-summarizer-iota.vercel.app/](https://document-summarizer-iota.vercel.app/)  
 
-🔍 Overview
+**💻 GitHub Repo:** [https://github.com/RiyaVerma7/Document-Summarizer](https://github.com/RiyaVerma7/Document-Summarizer)  
 
-The Document Summary Assistant is a client-side web application that allows users to upload documents (PDFs or images) and generate concise, meaningful summaries. Built with HTML, CSS, and JavaScript, it emphasizes clean design, responsiveness, and efficiency. The project showcases seamless document processing and summarization while ensuring smooth deployment and accessibility across devices.
 
-✨ Features
 
-📂 Document Upload – Drag-and-drop or file picker support for PDFs and images.
 
-📝 Text Extraction –
+## 🎯 What is this?  
+Tired of scrolling through long documents? 🤯  
+The **Document Summary Assistant** makes life easier by letting you **upload a PDF or image** and instantly generating a **clean, concise summary** 🪄 — right in your browser.  
 
-pdf.js for parsing text from PDF files.
 
-tesseract.js for OCR on scanned documents and images.
 
-📑 Summary Generation – Summaries of different lengths (short, medium, long) for quick insights.
 
-💡 Improvement Suggestions – Context-based suggestions derived from document content.
 
-🎨 UI/UX – Clean, professional, and mobile-responsive interface with error handling and loading states.
+## ✨ Features  
+✅ **Upload Anything** – PDFs or scanned images (drag & drop or file picker).  
+✅ **Smart Text Extraction** – pdf.js for digital PDFs, tesseract.js for OCR on images.  
+✅ **Summarization Options** – Choose between short, medium, or long summaries.  
+✅ **Helpful Suggestions** – Provides quick, actionable insights about your document.  
+✅ **Smooth UI** – Mobile-responsive, simple, and user-friendly design.  
 
-🚀 Tech Stack
 
-Frontend: HTML, CSS, JavaScript
 
-Libraries: pdf.js, tesseract.js
+## 🛠️ Tech Behind the Magic  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Libraries:** pdf.js, tesseract.js  
+- **Hosting:** Vercel (lightning fast ⚡)  
 
-Hosting: Vercel
----
-├── index.html   # Main HTML file  
-├── style.css    # Styling for UI/UX  
-├── script.js    # Core logic (upload, extraction, summarization)  
 
+
+## 🗂️ Project Structure  
+
+📁 Document-Summarizer
+
+├── index.html 👉 Main app 
+
+├── style.css 👉 Styling and layout
+
+└── script.js 👉 Core logic of the app
+
+
+
+
+## 🚀 How to Run Locally  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/RiyaVerma7/Document-Summarizer.git
+   cd Document-Summarizer
+
+2. Open index.html in your browser 🌐
+
+3. Done! 🎉 Your summarizer is ready to use.
+
+
+## 💡 Approach
+
+1. Text extraction with pdf.js (for PDFs) and tesseract.js (for scanned images).
+2. Summarization by dynamically selecting key sentences.
+3. Everything is client-side → secure, fast, and reliable.
